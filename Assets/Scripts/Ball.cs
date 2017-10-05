@@ -16,6 +16,11 @@ public class Ball : MonoBehaviour {
 		print (paddleToBallVector);
 	
 	}
+
+	void OnCollisionEnter2D (Collision2D col){
+		if (!(col.gameObject.tag == "Breakable"))
+		audio.Play ();
+	}
 	
 	// Update is called once per frame
 	void Update () {
