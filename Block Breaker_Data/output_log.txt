@@ -1,0 +1,1918 @@
+Initialize engine version: 4.7.2f1 (a7fe7b7f3d1f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 560 Ti (ID=0x1200)
+    Vendor:   NVIDIA
+    VRAM:     979 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: H:\programming\unity\Block Breaker\Block Breaker_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\programming\unity\Block Breaker\Block Breaker_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\programming\unity\Block Breaker\Block Breaker_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading H:\programming\unity\Block Breaker\Block Breaker_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: H:\programming\unity\Block Breaker\Block Breaker_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\programming\unity\Block Breaker\Block Breaker_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.437 seconds
+desktop: 1680x1050 59Hz; virtual: 1680x1050 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: H:\programming\unity\Block Breaker\Block Breaker_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\programming\unity\Block Breaker\Block Breaker_Data\Managed\System.dll (this message is harmless)
+Music player Awake 10122
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MusicPlayer:Awake() (at H:\programming\unity\Block Breaker\Assets\Scripts\MusicPlayer.cs:8)
+ 
+(Filename: H:/programming/unity/Block Breaker/Assets/Scripts/MusicPlayer.cs Line: 8)
+
+Music player Start 10122
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MusicPlayer:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\MusicPlayer.cs:21)
+ 
+(Filename: H:/programming/unity/Block Breaker/Assets/Scripts/MusicPlayer.cs Line: 21)
+
+Load level requested for: Level_01
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LevelManager:LoadLevel(String) (at H:\programming\unity\Block Breaker\Assets\Scripts\LevelManager.cs:7)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.CachedInvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:259)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:576)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:718)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:361)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:252)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:233)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:158)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: H:/programming/unity/Block Breaker/Assets/Scripts/LevelManager.cs Line: 7)
+
+UnloadTime: 6.368072 ms
+System memory in use before: 14.6 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 281.
+Total: 1.152903 ms (FindLiveObjects: 0.021985 ms CreateObjectMapping: 0.011745 ms MarkObjects: 0.145468 ms  DeleteObjects: 0.043068 ms)
+
+Breakable block - 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+triger is started
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LoseCollider:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\LoseCollider.cs:12)
+ 
+(Filename: H:/programming/unity/Block Breaker/Assets/Scripts/LoseCollider.cs Line: 12)
+
+Breakable block - 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 7
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 9
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 11
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 13
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 14
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 15
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 16
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 17
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 18
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 19
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 20
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 21
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 22
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable block - 23
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:30)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+(0.0, 0.4, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:Start() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:20)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 9.596473
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 22
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.38787
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 9.976665
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 21
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.17986
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.63398
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 20
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.38308
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.89008
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 19
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.54539
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.97149
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.81614
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.44694
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 18
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.03264
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.84682
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 17
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.98116
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.58291
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.80412
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.80112
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 16
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.45418
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.83788
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.2832
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.86427
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.21449
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.95823
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.54903
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.27008
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.88888
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.23611
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.85103
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.4485
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.8664
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.46637
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 15
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.86639
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.21957
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.84025
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.20049
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.82056
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.15748
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.77872
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.11324
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.75677
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.13646
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.77159
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.15203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.79105
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.16122
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.79561
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.17429
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.77661
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.33315
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 14
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.68716
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.0475
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.66777
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.06875
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.5757
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.84966
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.09136
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.61171
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.51933
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 13
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.41569
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.5876
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.11338
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.01938
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.96925
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.55155
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.48176
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.31838
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.48928
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.67656
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.46823
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.89219
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.62255
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.63752
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.4012
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.64784
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.53623
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.7722
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.61323
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.84879
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.54894
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.78943
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.03183
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.36765
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 11
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.05264
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.08702
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.49407
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.71551
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.10283
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.61797
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.5272
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.4376
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.68053
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.03217
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.35723
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.89031
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.67458
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.799
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.41698
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.71983
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.99531
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.09707
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.00578
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.47112
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.81309
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.72119
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 9
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.98354
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.84722
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.54878
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.86154
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.75218
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.69637
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.16236
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.42594
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.16695
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.82809
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.88916
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.91057
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 10.95948
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.08882
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.34241
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 11.98177
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.47539
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.50686
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.1273
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.10795
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.43255
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 12.74214
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.242
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.47068
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.22419
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.10712
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.16478
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.89823
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.36094
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.10224
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.01484
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.17747
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.87651
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.26925
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.65737
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.27284
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.94656
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.12313
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.27397
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.98039
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.7196
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.89714
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.34512
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.34076
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.33918
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.28941
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.24128
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 17.07494
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.57271
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 7
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.83161
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.61619
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.18423
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.78858
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.07557
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 16.32839
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 15.01157
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.07051
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.00465
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.17986
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Breakable blocks - 6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Brick:HandleHits() (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:52)
+Brick:OnCollisionExit2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Brick.cs:42)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.70307
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.79906
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 14.62732
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
+Velocity = 13.98968
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:TweakVelociti() (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:60)
+Ball:OnCollisionEnter2D(Collision2D) (at H:\programming\unity\Block Breaker\Assets\Scripts\Ball.cs:26)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
+
