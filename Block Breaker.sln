@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{50CE4D8E-AB75-FCB4-6CB5-FE0202D95134}") = "Block Breaker", "Assembly-CSharp.csproj", "{8EF7FD2A-EA24-02BA-E337-8605DF5645B6}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Block Breaker", "Assembly-CSharp.csproj", "{8EF7FD2A-EA24-02BA-E337-8605DF5645B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,7 +17,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																								GlobalSection(MonoDevelopProperties) = preSolution
+																																			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -36,5 +36,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal

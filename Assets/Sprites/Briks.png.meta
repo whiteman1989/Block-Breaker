@@ -14,6 +14,7 @@ TextureImporter:
     21300018: Briks_9
     21300020: Briks_10
     21300022: Briks_11
+    21300024: 1hitsBlock
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -36,7 +37,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: 0
+    filterMode: 2
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -63,7 +64,7 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_1
       rect:
@@ -73,7 +74,7 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_2
       rect:
@@ -83,7 +84,7 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_3
       rect:
@@ -93,17 +94,17 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_4
       rect:
         serializedVersion: 2
         x: 388
         y: 983
-        width: 128
+        width: 192
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_5
       rect:
@@ -113,7 +114,7 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_6
       rect:
@@ -123,7 +124,7 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_7
       rect:
@@ -133,7 +134,7 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_8
       rect:
@@ -143,7 +144,7 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_9
       rect:
@@ -153,7 +154,7 @@ TextureImporter:
         width: 41
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_10
       rect:
@@ -163,7 +164,7 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Briks_11
       rect:
@@ -173,7 +174,17 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1hitsBlock
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 899
+        width: 128
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

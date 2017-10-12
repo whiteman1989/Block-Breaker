@@ -5,7 +5,9 @@ public class Ball : MonoBehaviour {
 
 	public float adjustingMult = 4f;
 	public float tweakMult = 1f;
-	public float maxSpeed = 17f;
+	public float maxSpeed = 10f;
+	public GameObject boom;
+	public AudioClip launchSound;
 
 	private Paddle paddle;
 	private bool hasStarted = false;
@@ -23,15 +25,16 @@ public class Ball : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col){
 
+		foreach (ContactPoint2D missileHit in col.contacts)
+		{
+			Vector2 hitPoint = missileHit.point;
+			Instantiate(boom, new Vector3(hitPoint.x, hitPoint.y, 0), Quaternion.identity);
+		}
+			
 		TweakVelociti ();
 
-
-		if (col.gameObject.tag == "Paddle") {
-			TweakAngle();
-		}
-
 		if (!(col.gameObject.tag == "Breakable"))
-		audio.Play ();
+		GetComponent<AudioSource>().Play ();
 	}
 	
 	// Update is called once per frame
@@ -52,22 +55,21 @@ public class Ball : MonoBehaviour {
 
 
 	void TweakVelociti (){
-		if (rigidbody2D.velocity.magnitude <= maxSpeed) {
-			Vector2 tweak = rigidbody2D.velocity * Random.Range (0f, 0.05f) * tweakMult;
-			rigidbody2D.velocity += tweak;
+		if (GetComponent<Rigidbody2D>().velocity.magnitude <= maxSpeed) {
+			Vector2 tweak = GetComponent<Rigidbody2D>().velocity * Random.Range (0f, 0.05f) * tweakMult;
+			GetComponent<Rigidbody2D>().velocity += tweak;
 		}
-		rigidbody2D.velocity = Rotate (this.rigidbody2D.velocity, Random.Range(0f,0.1f));
-		print ("Velocity = " + rigidbody2D.velocity.magnitude);
+		GetComponent<Rigidbody2D>().velocity = Rotate (this.GetComponent<Rigidbody2D>().velocity, Random.Range(0f,0.1f));
+		print ("Velocity = " + GetComponent<Rigidbody2D>().velocity.magnitude);
 	}
 
 	void TweakAngle(){
 		float adjusting = Mathf.Clamp( (paddle.transform.position.x - this.transform.position.x),-0.5f,0.5f)*adjustingMult;
-		this.rigidbody2D.velocity = Rotate (this.rigidbody2D.velocity, adjusting);
+		this.GetComponent<Rigidbody2D>().velocity = Rotate (this.GetComponent<Rigidbody2D>().velocity, adjusting);
 	}
 
 	Vector2 Rotate(Vector2 aPoint, float aDegree)
 	{
-		float rad = aDegree * Mathf.Deg2Rad;
 		float s = Mathf.Sin(aDegree);
 		float c = Mathf.Cos(aDegree);
 		return new Vector2( aPoint.x * c - aPoint.y * s, aPoint.y * c + aPoint.x * s);
@@ -75,7 +77,8 @@ public class Ball : MonoBehaviour {
 
 	void StartTheBall (){
 		hasStarted = true;
+		AudioSource.PlayClipAtPoint (launchSound, transform.position, 1f);
 		this.GetComponent<Rigidbody2D>().simulated = true;
-		this.rigidbody2D.velocity = new Vector2 (2f, 10f);
+		this.GetComponent<Rigidbody2D>().velocity = new Vector2 (Random.Range(-1f,1f), 7f);
 	}
 }
