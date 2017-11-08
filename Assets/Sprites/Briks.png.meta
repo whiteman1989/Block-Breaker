@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 0b2ad6f5f7472d341a1e2adaf6d1598b
+timeCreated: 1507930110
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Briks_0
@@ -15,12 +17,15 @@ TextureImporter:
     21300020: Briks_10
     21300022: Briks_11
     21300024: 1hitsBlock
-  serializedVersion: 2
+    21300026: Briks_12
+    21300028: Briks_13
+    21300030: Briks_14
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -28,11 +33,12 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
@@ -48,15 +54,31 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 128
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Briks_0
+    - serializedVersion: 2
+      name: Briks_0
       rect:
         serializedVersion: 2
         x: 0
@@ -64,9 +86,12 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_1
       rect:
         serializedVersion: 2
         x: 129
@@ -74,9 +99,12 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_2
       rect:
         serializedVersion: 2
         x: 194
@@ -84,9 +112,12 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_3
       rect:
         serializedVersion: 2
         x: 259
@@ -94,9 +125,12 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_4
       rect:
         serializedVersion: 2
         x: 388
@@ -104,9 +138,12 @@ TextureImporter:
         width: 192
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_5
       rect:
         serializedVersion: 2
         x: 0
@@ -114,9 +151,12 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_6
       rect:
         serializedVersion: 2
         x: 129
@@ -124,19 +164,25 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_7
       rect:
         serializedVersion: 2
         x: 194
         y: 941
         width: 64
         height: 41
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_8
       rect:
         serializedVersion: 2
         x: 259
@@ -144,9 +190,12 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_9
       rect:
         serializedVersion: 2
         x: 388
@@ -154,9 +203,12 @@ TextureImporter:
         width: 41
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_10
       rect:
         serializedVersion: 2
         x: 0
@@ -164,9 +216,12 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Briks_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_11
       rect:
         serializedVersion: 2
         x: 129
@@ -174,9 +229,12 @@ TextureImporter:
         width: 64
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: 1hitsBlock
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 1hitsBlock
       rect:
         serializedVersion: 2
         x: 259
@@ -184,7 +242,51 @@ TextureImporter:
         width: 128
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Briks_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 899
+        width: 64
+        height: 41
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Briks_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 941
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Briks_14
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 941
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

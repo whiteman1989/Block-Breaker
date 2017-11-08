@@ -10,10 +10,12 @@ public class Ball : MonoBehaviour {
 	public AudioClip launchSound;
     public int maxBounce = 5;
     public float sensitivityLops = 1;
-    public float forceVerticalCorrection = 1f;
-    public float forceHorizontalCorrection = 1f;
+    public float forceVerticalCorrection = 1f , forceHorizontalCorrection = 1f;
+    // debug options
+    public float startForceX = 1f , startForceY = 8f;
+    public bool randomizeStartForce = true;
 
-
+    //private var
     private Paddle paddle;
 	private bool hasStarted = false;
 	private Vector3 paddleToBallVector;
@@ -24,35 +26,32 @@ public class Ball : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		paddle = GameObject.FindObjectOfType<Paddle> ();
-
-		paddleToBallVector = this.transform.position - paddle.transform.position;
+        paddleToBallVector = this.transform.position - paddle.transform.position;
 		this.GetComponent<Rigidbody2D>().simulated = false;
 		print (paddleToBallVector);
+
 	
 	}
-
-	void OnCollisionEnter2D (Collision2D col){
+    /** collision enter **/
+    void OnCollisionEnter2D (Collision2D col){
 
 		foreach (ContactPoint2D missileHit in col.contacts)
 		{
 			Vector2 hitPoint = missileHit.point;
 			Instantiate(boom, new Vector3(hitPoint.x, hitPoint.y, 0), Quaternion.identity);
-		}			
-		TweakVelociti ();
-		if (!(col.gameObject.tag == "Breakable"))
-		GetComponent<AudioSource>().Play ();
+		}
 
-        if (horizontalBounce >= maxBounce) {
-            HorizontalLoppExit();
-        }
+        if (!(col.gameObject.tag == "Breakable")) { GetComponent<AudioSource>().Play(); }
 
-        if (verticalBounce >= maxBounce) {
-            VerticalLoppExit();
-        }
+        if (horizontalBounce >= maxBounce) { HorizontalLoppExit();}
+
+        if (verticalBounce >= maxBounce) { VerticalLoppExit();}
 	}
-
+    
+    /** collision exit **/
     void OnCollisionExit2D(Collision2D col)
     {
+        TweakVelociti();
         CheckingHorizontal();
     }
 
@@ -63,9 +62,7 @@ public class Ball : MonoBehaviour {
 			this.transform.position = paddle.transform.position + paddleToBallVector;
 
 			//Wait for mouse press to lunch 
-			if (Input.GetMouseButtonDown (0)) {
-				StartTheBall ();
-			}
+			if (Input.GetMouseButtonDown (0)) { StartTheBall ();}
 		}
 
 	}
@@ -74,18 +71,13 @@ public class Ball : MonoBehaviour {
 
 
 	void TweakVelociti (){
-		if (GetComponent<Rigidbody2D>().velocity.magnitude <= maxSpeed) {
-			Vector2 tweak = GetComponent<Rigidbody2D>().velocity * Random.Range (0f, 0.05f) * tweakMult;
-			GetComponent<Rigidbody2D>().velocity += tweak;
-		}
-		/*GetComponent<Rigidbody2D>().velocity = Rotate (this.GetComponent<Rigidbody2D>().velocity, Random.Range(0f,0.1f));
-		print ("Velocity = " + GetComponent<Rigidbody2D>().velocity.magnitude);*/
+		if (GetComponent<Rigidbody2D>().velocity.magnitude < maxSpeed) {
+            Vector2 curVelocity = GetComponent<Rigidbody2D>().velocity;
+            curVelocity.Normalize();
+            this.GetComponent<Rigidbody2D>().velocity = curVelocity * maxSpeed;
+        }
 	}
 
-	void TweakAngle(){
-		float adjusting = Mathf.Clamp( (paddle.transform.position.x - this.transform.position.x),-0.5f,0.5f)*adjustingMult;
-		this.GetComponent<Rigidbody2D>().velocity = Rotate (this.GetComponent<Rigidbody2D>().velocity, adjusting);
-	}
 
 	Vector2 Rotate(Vector2 aPoint, float aDegree)
 	{
@@ -95,10 +87,12 @@ public class Ball : MonoBehaviour {
 	}
 
 	void StartTheBall (){
-		hasStarted = true;
+        // debug options
+        if (randomizeStartForce) { startForceX = Random.Range(-1f, 1f); }
+        hasStarted = true;
 		AudioSource.PlayClipAtPoint (launchSound, transform.position, 1f);
 		this.GetComponent<Rigidbody2D>().simulated = true;
-		this.GetComponent<Rigidbody2D>().velocity = new Vector2(/*Random.Range(-1f,1f)*/0f, 10f);
+		this.GetComponent<Rigidbody2D>().velocity = new Vector2(startForceX , startForceY);
         this.GetComponent<Rigidbody2D>().AddTorque(7);
 
     }
@@ -135,14 +129,14 @@ public class Ball : MonoBehaviour {
         Rigidbody2D ball = this.GetComponent<Rigidbody2D>();
         float speed = ball.velocity.magnitude;
         Vector2 correction = new Vector2(0f,-1f * forceVerticalCorrection);
-        print(correction);//////////////
+        //print(correction);//////////////
         ball.velocity += correction;
         Vector2 curVelocity = ball.velocity;
-        print("curVelocity " + curVelocity);/////////////////
+        //print("curVelocity " + curVelocity);/////////////////
         curVelocity.Normalize();
-        print("nweVelocity " + curVelocity);/////////////////
+        //print("nweVelocity " + curVelocity);/////////////////
         this.GetComponent<Rigidbody2D>().velocity = curVelocity * speed;
-        print("newVelocity " + this.GetComponent<Rigidbody2D>().velocity);///////////////
+        //print("newVelocity " + this.GetComponent<Rigidbody2D>().velocity);///////////////
         horizontalBounce = 0;
         verticalBounce = 0;
     }
@@ -152,14 +146,14 @@ public class Ball : MonoBehaviour {
         Rigidbody2D ball = this.GetComponent<Rigidbody2D>();
         float speed = ball.velocity.magnitude;
         Vector2 correction = new Vector2(Random.Range(-1f,1f) * forceHorizontalCorrection, 0f);
-        print(correction);//////////////
+        //print(correction);//////////////
         ball.velocity += correction;
         Vector2 curVelocity = ball.velocity;
-        print("curVelocity " + curVelocity);/////////////////
+        //print("curVelocity " + curVelocity);/////////////////
         curVelocity.Normalize();
-        print("nweVelocity " + curVelocity);/////////////////
+        //print("nweVelocity " + curVelocity);/////////////////
         this.GetComponent<Rigidbody2D>().velocity = curVelocity * speed;
-        print("newVelocity " + this.GetComponent<Rigidbody2D>().velocity);///////////////
+        //print("newVelocity " + this.GetComponent<Rigidbody2D>().velocity);///////////////
         horizontalBounce = 0;
         verticalBounce = 0;
 
