@@ -25,7 +25,7 @@ public class Ball : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		paddle = GameObject.FindObjectOfType<Paddle> ();
+		paddle = FindObjectOfType<Paddle>();
         paddleToBallVector = this.transform.position - paddle.transform.position;
 		this.GetComponent<Rigidbody2D>().simulated = false;
 		print (paddleToBallVector);

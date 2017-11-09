@@ -12,10 +12,11 @@ public class ScoreValue : MonoBehaviour {
 	void Start () {
         scoreKeeper = GameObject.Find("Score").GetComponent<ScoreKeeper>();
     }
-	
-
-	void OnDestroy () {
-        scoreKeeper.Score(scoreValue);
 		
+	void OnDestroy () {
+        if (scoreKeeper != null) {
+            scoreKeeper.Score(scoreValue);
+        }
 	}
+		
 }
