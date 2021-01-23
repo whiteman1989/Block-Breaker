@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ParticleDestroyer : MonoBehaviour {
-    public float delay;
+	public float delay;
 
 	// Use this for initialization
 	void Start () {
-        Destroy(gameObject , delay);
+		Destroy(gameObject, delay);
 	}
 
 }

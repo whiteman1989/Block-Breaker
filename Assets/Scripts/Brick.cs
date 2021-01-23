@@ -29,7 +29,7 @@ public class Brick : MonoBehaviour {
 			breakableCount ++;
 		}
 		// print breakable count
-		print ("Breakable block - " + breakableCount);
+		//print ("Breakable block - " + breakableCount);
 	}
 
 	void Awake () {
