@@ -51,7 +51,7 @@ public class Brick : MonoBehaviour {
 		
 		if (timesHit >= maxHits) {
 			breakableCount --;
-			print ("Breakable blocks - " + breakableCount);
+			//print ("Breakable blocks - " + breakableCount);
 			levelManager.BrickDestroyed();
 			Instantiate (smoke,gameObject.transform.position, Quaternion.identity);
 			AudioSource.PlayClipAtPoint (score, transform.position, 1f);

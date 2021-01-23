@@ -6,11 +6,17 @@ public class ScoreValue : MonoBehaviour {
 
     public int scoreValue;
 
-    private ScoreKeeper scoreKeeper;
+	private static ScoreKeeper scoreKeeper;
 
 	// Use this for initialization
 	void Start () {
-        scoreKeeper = GameObject.Find("Score").GetComponent<ScoreKeeper>();
+		if (scoreKeeper == null) {
+			scoreKeeper = GameObject.Find("Score").GetComponent<ScoreKeeper>();
+			if (scoreKeeper != null) {
+				Debug.Log ("ScoreKeeper sucesfui finded");
+			}
+
+		}
     }
 		
 	void OnDestroy () {
